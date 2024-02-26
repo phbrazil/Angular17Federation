@@ -86,7 +86,8 @@
         "esbuild": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "docs/demo17",
+            "outputPath": "docs",
+            "baseHref": "https://phbrazil.github.io/Angular17Federation/",
             "index": "src/index.html",
             "polyfills": [
               "zone.js",
